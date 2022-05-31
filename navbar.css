@@ -1,0 +1,46 @@
+/* responsive images? */
+ img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.nav-container {
+    margin-top: 50px !important;
+    margin: 0 auto;
+	max-width: 65%;
+    height: 50px;
+    background: #5962B0;
+    color: rgb(46, 45, 45);
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    display: flex;
+	align-items: center;
+}
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.navbar-list .li {
+}
+
+ 
+
+/* esto hace que esten mas centrados y espaciados */
+
+/* .main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+} */

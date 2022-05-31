@@ -12,6 +12,7 @@ header {
 
 .container {
     display: flex;
+    height: 150px;
     max-width: 100%;
 	padding: 0px;
 	margin: 0 auto;
@@ -26,9 +27,9 @@ header {
 	flex-wrap: wrap;
 }
 
-h1 {
-    font-size: em;
-    font-weight: bold;
+.container .h1 {
+    width: 300px;
+    height: 100px;
 }
 
 .main-header .social-media {

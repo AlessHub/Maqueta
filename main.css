@@ -1,0 +1,29 @@
+h2 {
+    font-weight: 800 !important;
+    color: black;
+    font-size: 25px !important;
+    margin-top: 60px !important;
+    margin-left: 100px !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+h3 {
+    margin-top: 30px !important;
+    font-size: 17px !important;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 800 !important;
+    margin-left: 100px !important;
+}
+
+p {
+    margin-top: 30px !important;
+    font-size: 17px !important;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 400 !important;
+    margin-left: 100px !important; 
+    width: 600px;
+    max-width: 100%;
+}
+

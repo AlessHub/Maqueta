@@ -27,10 +27,6 @@ header {
 	flex-wrap: wrap;
 }
 
-.container .h1 {
-    width: 300px;
-    height: 100px;
-}
 
 .main-header .social-media {
     margin: 1px;
@@ -38,16 +34,6 @@ header {
     display: flex;
     justify-content: flex-end;
     height: 50px !important;
-}
-
-.language-icon {
-    width: 50px !important;
-    margin: 1px;
-    height: 50px !important;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
 }
 
 .main-nav {
@@ -60,10 +46,6 @@ header {
     gap: 10px;
 }
 
-h1 {
-    width: 400px;
-    height: 200px;
-}
 
 
 /* esto hace que esten mas centrados y espaciados */

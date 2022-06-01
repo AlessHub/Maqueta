@@ -48,4 +48,5 @@ a:visited {
 .navbar a {
 	display: inline-block;
 	padding: .5em .5em;
+    text-decoration: none;
 }

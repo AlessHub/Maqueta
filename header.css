@@ -20,7 +20,7 @@ header {
 
 
 
-.main-header .container {
+.container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -28,7 +28,7 @@ header {
 }
 
 
-.main-header .social-media {
+.social-media {
     margin: 1px;
     width: 50px !important;
     display: flex;

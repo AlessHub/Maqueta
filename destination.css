@@ -9,49 +9,67 @@ h2 {
     font-weight: 800 !important;
     color: black;
     font-size: 25px !important;
-    margin-top: 60px !important;
     margin-left: 100px !important;
     font-family: 'Source Sans Pro', sans-serif !important;
     white-space: pre-line;
 }
 
 h3 {
-    margin-top: 30px !important;
-    font-size: 17px !important;
-    color: black;
-    font-family: 'Source Sans Pro', sans-serif !important;
     font-weight: 800 !important;
-    margin-left: 100px !important;
+    color: black;
+    font-size: 25px !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    white-space: pre-line;
 }
+
 
 /* white-space:preline hace que el texto no ocupe la pantalla entera */
 
 p {
-    margin-top: 30px !important;
+    margin-top: 15px !important;
     font-size: 17px !important;
     color: black;
     font-family: 'Source Sans Pro', sans-serif !important;
     font-weight: 400 !important;
-    margin-left: 100px !important;
     white-space: pre-line;
 }
 
 
 .main-images {
-    display: flex;
     width: 300px !important;
-    height: 300px !important;
-    margin-left: 300px !important;
+    height: 600px !important;
+    margin-left: 100px !important;
+    display: flex;
     flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
     gap: 100px;
 }
 
 .main-container {
     width: 1445px !important;
     display: flex;
-    height: 600px !important;
+    height: 750px !important;
     flex-direction: column;
-    justify-content: space-around;
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: space-around;
+    height: 520px !important;
+}
+
+.uk-container {
+    width: 900px;
+    height: 150px;
+}
+
+.japan-container {
+    width: 950px;
+    height: 150px;
 }

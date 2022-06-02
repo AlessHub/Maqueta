@@ -1,6 +1,12 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
-    background-image: url("cloud-background.jpg");
+    background-image: url("images/cloud-background.jpg");
     background-repeat: no-repeat;
+    background-size:cover;
 }
 
 /* h2, h3 y p tienen float para que las imagenes puedan ponerse a su derecha */

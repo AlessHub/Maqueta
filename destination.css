@@ -1,6 +1,7 @@
 body {
-    background-image: url("cloud-background.jpg");
+    background-image: url("images/cloud-background.jpg");
     background-repeat: no-repeat;
+    background-size:cover;
 }
 
 /* h2, h3 y p tienen float para que las imagenes puedan ponerse a su derecha */
@@ -72,4 +73,12 @@ p {
 .japan-container {
     width: 950px;
     height: 150px;
+}
+
+.uk-thumbnail {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.japan-thumbnail {
+    border: 1px solid rgba(0, 0, 0, 0.5); height: 200px;width: 300px;
 }

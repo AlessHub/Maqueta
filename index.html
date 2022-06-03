@@ -13,13 +13,12 @@
   </head>
   <body>
       <header>
-        <div class="container">
-          <h1 class="logoipsum" style="width: 280px; height: 100px; margin-left: 30px;">
-            <a href="index.html">
-              <img src="images/logoipsum.png" alt="Website logo" title="Logoipsum Home">
-            </a>
-          </h1>
           <nav class="main-nav">
+            <h1 class="logoipsum" style="width: 280px; height: 100px; margin-left: 30px;">
+              <a href="index.html">
+                <img src="images/logoipsum.png" alt="Website logo" title="Logoipsum Home">
+              </a>
+            </h1>
             <ul class="main-nav-list">
               <li>
                 <a href="https://twitter.com" target="_blank">
@@ -37,17 +36,20 @@
                 </a>
               </li>
               <li>
-                <a href="https://youtube.com" target="_blank">
+                <a href="https://youtube.com" target="_blank" style="margin-right: 50px;">
                 <i>
                   <img src="images/youtube-logo.png" class="social-media" alt="Youtube icon" title="Follow us on Youtube" style="margin-top: 6px;">
                 </i>
                 </a>
               </li>
-              <li style="margin-left: 50px;">
-                <i>
-                  <img src="images/language_en.png" class="social-media" alt="Language icon" title="Language">
-                </i>
-              </li>
+              <div class="lang-menu">
+                <button class="langbtn">English</button>
+                <div class="lang-content">
+                  <a href="#">Español</a>
+                  <a href="#">Français</a>
+                  <a href="#">Deutsch</a>
+                </div>
+              </div>
               <li>
                 <i>
                   <img src="images/search-icon.png" class="social-media" alt="Search icon" title="Search">
@@ -55,7 +57,6 @@
               </li>
             </ul>
           </nav>
-        </div>
       </header>
       <div class="nav-container">
         <nav class="navbar">

@@ -1,3 +1,17 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #333 !important;
+}
+
 /* responsive images? */
 
 .img {
@@ -8,59 +22,65 @@
 header {
     background: #5962B0;
     color: rgb(46, 45, 45);
+    padding: 10px 0 !important;
 }
 
-.container {
-    display: flex;
-    height: 150px;
-    max-width: 100%;
-	padding: 0px;
-	margin: 0 auto;
-}
-
-
-
-.container {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
 
 
 .social-media {
     margin: 1px;
     width: 50px !important;
-    display: flex;
-    justify-content: flex-end;
     height: 50px !important;
 }
 
 .main-nav {
-    margin-right: 70px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-nav-list {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-right: 100px;
 }
 
+/* El codigo de abajo es todo para el dropdown menu */
 
-
-/* esto hace que esten mas centrados y espaciados */
-
-.main-nav li {
-	display: inline;
-}
-
-.main-nav ul {
-	margin: 1em 0 .5em;
-	text-align: center;
-}
-
-
-.main-nav img {
-	display: inline-block;
-	padding: .5em 0.5em;
-}
+.langbtn {
+    background-color: #5962B0;
+    color: black;
+    padding: 16px;
+    margin-top: 0px;
+    font-size: 20px;
+    border: none;
+  }
+  
+  .lang-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .lang-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .lang-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .lang-content a:hover {background-color: #ddd;}
+  
+  .lang-menu:hover .lang-content {display: block;}
+  
+  .lang-menu:hover .langbtn {background-color: #5962B0;}

@@ -9,8 +9,6 @@ body {
     background-size:cover;
 }
 
-/* h2, h3 y p tienen float para que las imagenes puedan ponerse a su derecha */
-
 h2 {
     font-weight: 800 !important;
     color: black;

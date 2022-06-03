@@ -50,9 +50,10 @@ header {
 /* El codigo de abajo es todo para el dropdown menu */
 
 .langbtn {
-    background-color: #5962B0;
+    background-color: #32275659;
     color: black;
     padding: 16px;
+    border-radius: 30px;
     margin-top: 0px;
     font-size: 20px;
     border: none;
@@ -67,7 +68,9 @@ header {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    margin-left: 3px;
+    border-radius: 20px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -79,8 +82,8 @@ header {
     display: block;
   }
   
-  .lang-content a:hover {background-color: #ddd;}
+  .lang-content a:hover {background-color: #ddd; border-radius: 20px}
   
-  .lang-menu:hover .lang-content {display: block;}
+  .lang-menu:hover .lang-content {display: block; }
   
-  .lang-menu:hover .langbtn {background-color: #5962B0;}
+  .lang-menu:hover .langbtn {background-color: #32275659; }
